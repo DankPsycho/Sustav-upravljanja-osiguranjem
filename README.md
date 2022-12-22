@@ -11,4 +11,4 @@ Barem jednu one to one, one to many i many to many relaciju.
 Generirane testne podatke
 Prikaz generiranih podataka za svaki entitet u modelu pomoću generičkih pogleda
 *
-# Sustav-upravljanja-osiguranjem
+
