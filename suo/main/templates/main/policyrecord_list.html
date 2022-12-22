@@ -1,0 +1,21 @@
+{% block content %}
+    <h2>Policy Record</h2>
+    <ul>
+        {% for policyrecord in object_list %}
+            <li>
+                Policy record customer: {{ policyrecord.customer}}<br>
+            </li>
+            <li>
+                Policy record name: {{ policyrecord.Policy }} <br>
+            </li>
+            <li>
+                Policy record status: {{ policyrecord.status }} <br>
+            </li>
+            <li>
+                Policy record creation date: {{ policyrecord.creation_date }} <br>
+            </li>
+            
+            <br>
+        {% endfor %}
+    </ul>
+{% endblock %}

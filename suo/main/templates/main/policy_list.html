@@ -1,0 +1,27 @@
+{% block content %}
+    <h2>Policies</h2>
+    <ul>
+        {% for policy in object_list %}
+            <li>
+                Policy Category: {{ policy.category }}<br>
+            </li>
+            <li>
+                Policy name: {{ policy.policy_name }}<br>
+            </li>
+            <li>
+                Policy sum assurance: €{{  policy.sum_assurance }}  <br>
+            </li>
+            <li>
+                Policy premium: {{ policy.premium}} <br>
+            </li>
+            <li>
+                Policy tenure: {{ policy.tenure}} <br>
+            </li>
+            
+            <li>
+                Policy creation date: {{ policy.creation_date}} <br>
+            </li>
+            <br>
+        {% endfor %}
+    </ul>
+{% endblock %}

@@ -1,0 +1,36 @@
+{% block content %}
+    <h2>Customers</h2>
+    <ul>
+        {% for customer in object_list %}
+            <li>
+                Customer name: {{ customer.name }}<br>
+            </li>
+            <li>
+                Customer adress: {{ customer.address }} <br>
+            </li>
+            <li>
+                Customer city: {{  customer.city }} <br>
+            </li>
+            <li>
+                Customer country: {{ customer.country }} <br>
+            </li>
+            <!--
+            <li>
+                Customer policy: 
+                <ul>
+                    
+                    {% for policy in customer.policy.all%}
+                    
+                <li>
+                    {{policy.name}}
+
+                </li>
+                    {% endfor %}
+                
+                </ul>
+            </li>
+            -->
+            <br>
+        {% endfor %}
+    </ul>
+{% endblock %}
