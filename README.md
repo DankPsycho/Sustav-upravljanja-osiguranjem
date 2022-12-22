@@ -6,7 +6,7 @@ Uradio: Vedran Štimac
 
 
 Projekt sadrži:
-----------------
+
 Github repozitorij za projekt
 
 Github repozitorij treba sadržavati i README file u kojem je naveden zadatak i imena studenata.
@@ -20,5 +20,5 @@ Barem jednu one to one, one to many i many to many relaciju.
 Generirane testne podatke
 
 Prikaz generiranih podataka za svaki entitet u modelu pomoću generičkih pogleda
-----------------
+
 
