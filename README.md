@@ -1,7 +1,7 @@
 # Sustav-upravljanja-osiguranjem
 
 Zadatak: Sustav upravljanja osiguranjem za potrebe kolegija Programiranje za web.
-Uradio: Vedran Štimac
+**Uradio: Vedran Štimac**
 
 
 
